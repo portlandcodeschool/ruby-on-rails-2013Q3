@@ -12,8 +12,31 @@ Fall, 2013
 >
 >**Office Hours: Monday & Wednesday before & after class.**
 
-Expecations
+
+
+For definitive contractual agreements, see the "Portland Code School Student Enrollment Agreement" that you signed. Nothing in this syllabus is intended to supercede or replace terms agreed to in that document. Where a conflict exists, that document will apply.
+
+Objectives
+=================
+ 
+Core Abilities
+--------------
+The core abilities for students in our program are as follows. They are designed to be the overarching goals for everything you do. Each of them have been specifically requested by the employer network and we believe that they are good goals for all developers to aspire to and flesh out.
+
+1. Create code quickly and efficiently
+1. Create high quality code
+1. Collaborate with teammates effectively
+1. Understand and apply current technologies
+1. Learn new technologies easily
+1. Understand and apply computer science concepts
+1. Understand and apply business and product development concepts
+1. Speak effectively about technology in interviews and while networking
+1. Utilize the technical and functional aspects of each lesson’s topic
+
+
+Educational Expectations
 =======
+
 Student Time Commitment
 ----------
 Class hours: **Monday & Wednesday 6p-9p, plus one Saturday a month, 9a-4p** Saturday hours will be announced at least 2 weeks in advance.
@@ -39,6 +62,18 @@ Students are expected to act at their highest capacity and with mutual respect f
 In a related vein, this class requires work in close proximity to others as we code and debug in pairs and small groups. Good hygiene is mandatory and an additional sign of respect for your colleagues.
 
 If you experience or perceive a problem, attempt to work it out on your own, if possible, but do not hesitate to bring it privately to the attention of your instructor. If this is unsatisfactory, bring it to the attention of Cris Kelly, Portland Code School Director.
+
+Additional Expectations
+-----------------------
+Each term, students may collaboratively establish other norms and expectations specific to that cohort.
+
+<!-- 
+My sticking points
+  Coming to class late (even 5 min)
+  Leaving class early
+  screens open during lecture (I promise to keep it short)
+  Not doing the prep before a session
+-->
 
 Teaching method
 ===============
@@ -70,7 +105,7 @@ This also includes blogging and contributing to online forums like mailing lists
 
 Student projects
 -----------------
-After getting some basics under their collective belts, students will be required to identify one or two potential projects that they can accomplish in teams of 2 or 3. These projects should provide meaning or value on a topic the students find interesting. If they can't identify a project, Portland Code School and its network of partners and employers may have several to choose from.
+After getting some basics under their collective belts, students will be requested to identify one or two potential projects that they can accomplish in teams of 2 or 3. These projects should provide meaning or value on a topic the students find interesting. If they can't identify a project, Portland Code School and its network of partners and employers may have several to choose from.
 
 Students will pitch one of these projects to the PCS staff and will collaborate with staff to scale the scope so that students have a good chance of success by the end of term (including some failures along the way!).
 
@@ -85,9 +120,9 @@ Overall Schedule
 
 Week 1
 --------
-* Course overview, Web application architecture
-* Tools: Development environment setup, git, github, chrome
-* Career: Intro to Portland & Online developer communities
+* Course overview, web application architecture
+* Tools: Development environment setup
+* Career: Intro to Portland & online developer communities
 * Career: Building a reputation and a personal brand
 * Ruby: ­Syntax, Variables, Operators, Expressions IRB, Intro to objects 
 
