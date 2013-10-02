@@ -65,6 +65,12 @@
 
 	0. Install [Sublime Text](http://www.sublimetext.com). This is a paid software product that has an indefinite free trial. You should plan on paying for it as soon as you have a developer job.
 
+0. Connect up to the community
+
+	0. Attend the Portland Ruby Brigade meeting
+	0. Install an IRC client and visit the #portlandcodeschool channel. Say hi to "Auraelius" (me).
+	0. Join the Google+ Portland Code School Community. If you didn't get an invitation, contact Cris Kelly.
+
 0. Prepare a Lightening talk for next Monday's class. This is a 5 minute talk about anything that means something to you. Your goal is to teach the class something new. Any topic is OK, you just need to care about what you are teaching us. 
 
 ## Assignment assessment
@@ -74,6 +80,7 @@ Next Monday, you will:
 	* Your Treehouse badges
 	* Your Code Academy progress
 	* Your Ruby environment (RVM, Ruby, git, Sublime Text)
+	* Your IRC client
 
 2. Deliver your lightening talk to the class
 
