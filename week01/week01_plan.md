@@ -9,7 +9,7 @@
 	* Office Hours
 	* Communication commitments
 * Overview Web Application
-* Git version control introductions
+* Introduce Git version control 
 * Install Ruby tools
 	* Package manager for your OS
 	* RVM
@@ -24,7 +24,7 @@
 		* IRC
 * Watch introductory Ruby videos from Treehouse.com
 * Watch introductory git videos from Treehouse.com
-* Watch interactive Ruby exercises from CodeAcademy
+* Complete interactive Ruby exercises from CodeAcademy
 
 ## Assignment
 
@@ -38,7 +38,7 @@
 
 	If you have watched these in the past, please be prepared to discuss the material next Monday night.
 
-0. Do the first four lessons in the (Code Academy Ruby Track)[http://www.codecademy.com/tracks/ruby].
+0. Do the first four lessons in the [Code Academy Ruby Track](http://www.codecademy.com/tracks/ruby).
 	* Introduction to Ruby
 	* Putting the Form in Formatter
 	* Control Flow in Ruby
@@ -131,7 +131,7 @@ There are several command-line clients worth investigating. On the Mac, Colloqy 
 
 Portland Code School has a student channel on irc.freenode.net called "#portlandcodeschool" that you should check out. Instructors and former students also hangout there.
 
-The Portland Ruby Brigade is on the "#portlandruby" channel and those folks are always helpful.
+The Portland Ruby Brigade is on the "#pdxruby" channel and those folks are always helpful.
 
 Like any group or society, IRC has its own norms of interaction. As with any communication situation, it's worth your time to learn how to behave "when in Rome." For an introduction on IRC, see http://www.ircbeginner.com
 
@@ -158,5 +158,5 @@ As you can tell, this course emphasizes online resources. If you'd like to read 
 * [Learn to Program](http://pragprog.com/book/ltp2/learn-to-program) - Recommended for people who have never coded in any language before. You should also check out other titles in the Pragmatic Programmers [Ruby and Rails Series](http://pragprog.com/categories/ruby_and_rails)
 * [Eloquent Ruby](http://my.safaribooksonline.com/book/web-development/ruby/9780321700308) - a good introduction to idiomatic Ruby
 
-You'll notice that this last link is to Safari Books Online. I've been a subscriber for over ten years. In the good times, enlightened employers paid for the subscription. As a freelancer, I pay for it myself and consider it an excellent investment. The best thing about this service is that you can search for a particular topic and, within a few minutes, read about it in several different textbooks and watch some expert on video. You should definitely consider it once you have some cash flow.
+You'll notice that this last link is to Safari Books Online. I've been a subscriber for over ten years. In the good times, enlightened employers paid for the subscription. As a freelancer, I pay for it myself and consider it an excellent investment. The best thing about this service is that you can search for a particular topic and, within a few minutes, read about it in several different textbooks and watch a bunch of experts on video. You should definitely consider it once you have some cash flow.
 
