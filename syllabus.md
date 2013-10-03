@@ -57,7 +57,7 @@ Mutual Respect
 --------------
 This class depends upon an atmosphere of mutual respect among students and staff. Together, we create a safe place to listen, learn, speak candidly, and fail safely. This is not a typical college class, it's a team effort producing a final product: jobs for everyone. You have the opportunity to make deep connections here that you will enjoy the rest of your career. 
 
-Students are expected to act at their highest capacity and with mutual respect for each other regardless of age, race, gender identification, sexual preference, or prior experience. Instructors are expected to lead in this regard by example.
+Students are expected to act at their highest capacity and with mutual respect for each other regardless of age, race, gender identity and expression, sexual orientation, or prior experience. Instructors are expected to lead in this regard by example.
 
 In a related vein, this class requires work in close proximity to others as we code and debug in pairs and small groups. Good hygiene is mandatory and an additional sign of respect for your colleagues.
 
