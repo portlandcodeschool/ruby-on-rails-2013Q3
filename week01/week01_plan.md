@@ -51,6 +51,9 @@
 
 	If you have watched these in the past, please be prepared to discuss the material next Monday night. Since you all have github accounts, we're going to move quickly through the basics.
 
+0. Watch the following [Console Foundations](http://teamtreehouse.com/library/programming/console-foundations) screencasts on Treehouse.
+	* Getting Started with the Console
+	
 0. Set up your machine with the recommended Ruby development tools. 
 
 	We recommend that you do this in pairs on a class night or during office hours.
