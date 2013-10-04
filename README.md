@@ -7,9 +7,7 @@ This repository contains the class materials for the
 
 **Fall 2013** 
 
-**Ruby On Rails** 
-
-course.
+**Ruby On Rails Course**
 
 Every cohort is unique, so this reflects the course taught in this session. Future sessions will be adapted to the needs of the students taking the class. For more information about the course, see the Syllabus and the Course Calendar
 
