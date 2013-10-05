@@ -72,9 +72,9 @@
 
 	0. Attend the Portland Ruby Brigade meeting
 	0. Install an IRC client and visit the #portlandcodeschool channel. Say hi to "Auraelius" (me).
-	0. Join the Google+ Portland Code School Community. If you didn't get an invitation, contact Cris Kelly.
+	0. Join the Google+ Portland Code School Community, and add your contact information to Shawna's Google Doc. If you didn't get an invitation, contact Cris Kelly.
 
-0. Prepare a Lightening talk for next Monday's class. This is a 5 minute talk about anything that means something to you. Your goal is to teach the class something new. Any topic is OK, you just need to care about what you are teaching us. 
+0. Prepare a Lightning talk for next Monday's class. This is a 5 minute talk about anything that means something to you. Your goal is to teach the class something new. Any topic is OK, you just need to care about what you are teaching us. 
 
 ## Assignment assessment
 Next Monday, you will:
@@ -157,7 +157,7 @@ Like any group or society, IRC has its own norms of interaction. As with any com
 ### Books
 As you can tell, this course emphasizes online resources. If you'd like to read a book on these many subjects, there are many available. Here are a few (available in paper, EPUB, and MOBI formats):
 
-* [The Pickaxe Book](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0) - the original and definitive guide to the Ruby Language (altho not the only one).
+* [The Pickaxe Book](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0) - the original and definitive guide to the Ruby Language (although not the only one).
 * [Learn to Program](http://pragprog.com/book/ltp2/learn-to-program) - Recommended for people who have never coded in any language before. You should also check out other titles in the Pragmatic Programmers [Ruby and Rails Series](http://pragprog.com/categories/ruby_and_rails)
 * [Eloquent Ruby](http://my.safaribooksonline.com/book/web-development/ruby/9780321700308) - a good introduction to idiomatic Ruby
 
