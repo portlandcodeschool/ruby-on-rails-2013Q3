@@ -11,7 +11,7 @@ Some notes:
 
 * You do not have to complete all five increments, but you must be prepared to demo the last increment you completed.
 
-* Along the way, if you and your partner get stuck, ask for help from other teams. It's not a race or a competition. And, if you are asked for help, mentor the people who are asking. Don't just give them your code. See the [article on mentoring](../mentoring.md).
+* Along the way, if you and your partner get stuck, ask for help from other teams. It's not a race or a competition. And, if you are asked for help, mentor the people who are asking. Don't just give them your code. See the [article on mentoring](..articles/mentoring.md).
 
 * When you are finished, both you and your partner will have a git repository that tells the story of how you both developed the program and that allows you to go back to earlier commits and reconstruct history.
 
