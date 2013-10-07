@@ -23,3 +23,8 @@ The contents of this repository are dual-licensed. Portland Code School retains 
 
 ![CC BY-NC-SA Badge](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
 
+<hr />
+Copyright © 2008-2013 Alan Zimmerman
+
+Used by permission by Portland Code School
+

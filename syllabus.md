@@ -220,4 +220,7 @@ Week 12
 * Product development: Finish and Present Projects
 * Final assessment
 
+<hr />
+Copyright © 2008-2013 Alan Zimmerman
 
+Used by permission by Portland Code School
