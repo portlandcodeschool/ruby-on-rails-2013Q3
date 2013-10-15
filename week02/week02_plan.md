@@ -89,6 +89,10 @@
 
 #### On debugging
 * [A nice introduction albeit on Javascript](http://open.blogs.nytimes.com/2013/08/27/the-young-developers-guide-to-debugging-javascript/)
+* [An article on debugging with *pry*](../articles/debugging.md)
+
+#### On testing
+* [Ruby Koans]
 
 
 

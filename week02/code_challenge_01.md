@@ -17,6 +17,8 @@ Some notes:
 
 * This exercise must be performed in class with a partner. The point of this exercise is not the code - it's the coding. If you start early at home, you'll have to start over from scratch in class.
 
+* For information about debugging, see [the article on debugging with *pry*](../articles/debugging.md).
+
 **Warning!! Read through this assignment with your partner before you begin work. Since this is the first time you may be doing some of these things, it might be useful to make a copy of the assignment and annotate it with the git commands or ruby syntax you'll want to use for that step. Any time you spend preparing with be saved later.**
 
 #Increment 0 - Setting up the environment
