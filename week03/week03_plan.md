@@ -1,3 +1,4 @@
+*Portland Code School*
 #Week 3
 
 ##Overview (from Syllabus)
@@ -69,6 +70,9 @@
 0. Do a code challenge in pairs in class and outside of class.
 (to be supplied Wednesday)
 
+<hr />
+Copyright © 2013 Alan Zimmerman <br />
+Used by permission by Portland Code School
 
 
 

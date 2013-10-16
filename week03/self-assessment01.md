@@ -91,4 +91,3 @@ Make a copy of the markdown source file of this page. Fill in your answers among
 Copyright © 2013 Alan Zimmerman <br />
 Used by permission by Portland Code School
 
-#### 
