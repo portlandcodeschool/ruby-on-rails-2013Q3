@@ -70,6 +70,10 @@
 0. Do a code challenge in pairs in class and outside of class.
 (to be supplied Wednesday)
 
+### More references
+
+[MiniTest Quick Reference](http://mattsears.com/articles/2011/12/10/minitest-quick-reference)
+
 <hr />
 Copyright © 2013 Alan Zimmerman <br />
 Used by permission by Portland Code School
