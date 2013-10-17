@@ -40,7 +40,7 @@ class UI # was Madlibs -- bad choice of name
 
     puts 'Choose one of the following:'
     modes_of_transportation.each_index do |i|
-      puts "#{(i+1).to_s}. #{modes_of_transportation[i]}"     
+      puts "#{(i + 1).to_s}. #{modes_of_transportation[i]}"
     end
     puts 'by typing the number of your choice: '
 
@@ -56,11 +56,11 @@ end
 
 class SentenceTemplate
 
-  def initialize (a_string)
+  def initialize(a_string)
     @template = a_string
   end
 
-  def insert (parts_of_speech)
+  def insert(parts_of_speech)
     sentence = @template
     parts_of_speech.each do |part, phrase|
       regular_expression = "\(#{part.to_s}\)"

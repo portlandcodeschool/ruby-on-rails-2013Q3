@@ -25,12 +25,15 @@ Your deadline for the code challenge is next Monday at 6pm. We will start the co
 ## Easy homework
 Topics: Classes, variables, and methods
 
-0. Create an HQ9F class (http://esolangs.org/wiki/HQ9_Plus)
 0. Create a github repo to hold your work.
-0. Inside this class create 3 methods: H, _99, and +
-	* "H" should simply print out "Hello World!" and quit
-	* "_99" should take 1 variable: the number of bottles of beer on the wall. It should output the lyrics to the hugely popular "99 Bottles Of Beer On The Wall" song, including a sad lament when there is no more beer.
-	* "+" increments the accumulator (I personally find this the funniest part)
+0. Create an HQ9F class (http://esolangs.org/wiki/HQ9_Plus)
+0. Create a method "h" that is a global method
+
+    * "h" should output "Hello World!" and exit the program.
+
+0. Inside the HQ9F class, create 2 more methods: "_99" and "+"
+    * "_99" should take 1 variable: the number of bottles of beer on the wall. It should output the lyrics to the hugely popular "99 Bottles Of Beer On The Wall" song, including a sad lament when there is no more beer.
+    * "+" increments the accumulator (I personally find this the funniest part)
 
 
 This class should respond to:

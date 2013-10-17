@@ -5,7 +5,7 @@ class TestMyClass < MiniTest::Unit::TestCase
     @my_obj = MyClass.new
   end
   def test_expected_output
-    assert_equal 3, @my_obj.two
+    assert_equal 2, @my_obj.two
   end
 end
 
