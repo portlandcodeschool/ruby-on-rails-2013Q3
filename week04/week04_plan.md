@@ -31,7 +31,9 @@
 	* processing, with major methods and data structures
 	* outputs
 	* tests
-	* style guide "offences" and rationale
+	* style guide "offenses" and rationale
+
+0. Track and report your "billable hours" - the time you actually spend on performing PCS learning activities. Do not report any time you spend learning related topics, using related sources, or spending time with other coders that you do not use to work on class work. You should include the time you spend at Tuesday's Hack & Help and Friday's happy hour, be cause those are required and/or recommended by PCS. Report for the period of Monday through Monday.
 
 0. Continue [Ruby Koans](http://rubykoans.com) at least through #100
 
