@@ -100,21 +100,24 @@ Okay, here's the wireframes. Be sure to check out the URLs in the title bar.
 
 Visitors arrive at this page.
 
-![Landing page](./wirframes/landing.png "Landing page")
+![Landing page](./wireframes/landing.png "Landing page")
 
 When they fill out the form and click submit, they end up at this page.  N-otice that we use the form data to craft our welcoming and reinforcing message to the sucker, I mean customer. (That's what comes from spending too much time with the client.)
 
-TBD
+![Response page](./wireframes/thanks.png "Response page")
 
 The client wants an admin interface. Don't worry about authentication at this point, just create a unique URL, as shown in the wireframe. When they hit this URL, they want a list of everybody who has responded to the form:
 
-TBD
+![Admin page](./wireframes/suckers_listing.png "Admin page - displays list of respondents")
 
 When they click on one of the respondents, anywhere in the row of the table, they want to go to a page that shows the detail for that particular customer. That page has a link to return to the base of the admin pages. The detail page looks like this:
 
-TBD
+![Admin page, detail](./wireframes/suckers_listing.png "Admin page - displays respondent detail")
 
 Finally, here's a page flow diagram that summarizes what I've got so far.
+
+![Page flow diagram](./wireframes/page_flow.png "Page flow diagram")
+
 
 I'll get you more information as soon as I know it. Clients: can't live with them, can't shoot them.
 
