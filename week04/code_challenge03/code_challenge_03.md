@@ -167,11 +167,13 @@ Emms
 
 **Subject: Data back-end update**
 
-I was hoping to have a better solution at this point and to be able to give you good news, but we're still in discussions on the database side of things. However, we're coming up on a big client demo so we need to be able to store more than one respondent. So, here's what I'd like you to do for this iteration:
+I was hoping to have a better solution at this point and to be able to give you good news, but we're still in discussions on the database side of things. However, we're coming up on a big client demo so we need to be able to make it look like the app can store more than one respondent. (Even if all of them are lost when we turn off the app. Hey, all early demos are smoke and mirrors, right?)
+
+So, here's what I'd like you to do for this iteration:
 
 0. Use an in-memory data structure to store all of the respondent data.  Use an array of hashes if you like. That seems to be the simplest thing I can think of but you may have a better idea.
 
-0. Every time the form is submitted, add the new information to the data structure. On the admin page, display the entire data structure and provide click-through to the respondent detail page.
+0. Every time the form is submitted, append the new information to the data structure. On the admin page, display the entire data structure and provide click-through to the respondent detail page.
 
 0. Make sure your tests verify that you can store multiple respondents reliably.
 
@@ -224,13 +226,17 @@ In any case, please implement the following in this iteration while I talk to ma
 
 0. Use CSV file format and use the CSV library to interact with the file. No reinventing the wheel here, folks.
 
-0. This means, every time you get new form data, appended to a file.
+0. Every time you get new form data, appended the data to the file. 
+
+0. Be sure to create the file the first time you get a response and make sure your display page works if there's no file. 
+
+0. Close the file in between every access.
 
 0. When you display the list of respondents, read in the file and display its contents in the table.
 
-0. When you display the details for a particular respondent,  open the file again, and search through it until you find the record, then display it.
+0. When you display the details for a particular respondent, open the file again, search through it until you find the record, and then display the record.
 
-0.  Make sure your tests verify that the file is getting correct information and that information is being displayed correctly.
+0.  Make sure your tests verify that the file is being written with correct information and that information is being read from the file and displayed correctly.
 
 I know this sounds crazy. Just implement this for me please. And you over-achievers: *Don't* cache the file data as you bring it in off of disk. Just go straight to disk and back. I have my reasons. 
 
@@ -246,13 +252,13 @@ Emms
 
 **From: Frank**
 
-**Subject: OMG! The client is Pissed!**
+**Subject: OMG! The client is *Pissed!* **
 
 What did you people do? The last demo went *horribly* wrong. The site is as slow as polar bear snot in a snowstorm! The client is furious!
 
-I am *NOT* going to lose my commission over this. Management is going to hear about this. 
+I am *NOT* going to lose my commission! Management is going to hear about this. 
 
-How could you do this to me?
+How could you do this to me? Forget about Friday Happy Hour. I have plans.
 
 Frankie.
 
@@ -267,15 +273,17 @@ Folks, don't worry. I'm making sure everybody knows this is my problem. You guys
 
 I need some data. In this iteration, would you do something for me?
 
-0. Get ahold of the Faker gem so we can generate a metric ton of data.
-0.  Use the faker gem to generate a CSV data file with a couple hundred or a couple thousand entries in it. Don't go crazy. 
-0. You can generate the file in a command line script, or for grins, you can create a custom URL and generate it in the web app itself. Something like 
+0. Get ahold of the "faker" gem so we can generate a metric ton of data. (Get it? "Metric ton." You know, for generating metrics.)
+
+0.  Use the faker gem to generate a CSV data file with at least a thousand entries in it but don't go crazy. 
+
+0. You can generate the file in a command line script or, for grins, you can create a custom URL and generate it in the web app itself. Something like 
 
     http://localhost:4567/generate_dummy_data/ 
 
     I know this isn't valid rest syntax, being a verb and all, but it might in handy later.
 
-0. Benchmark the performance of the admin display page when it is displaying the entire data set. If possible, write a test that gathers this data automatically. However, if you could just use the Chrome developer tools to see how long it takes to load the page, that's fine with me.
+0. Benchmark the performance of the admin display page when it is displaying the entire data set. If possible, write a test that gathers this data automatically. However, if you just use the Chrome developer tools to see how long it takes to load the page, that's will do.
 
 0. Benchmark the performance of the respondent detail page when it has to display the details of the 500th respondent. Again, if you can write an automated test for this, please do.
 
@@ -289,7 +297,7 @@ I need some data. In this iteration, would you do something for me?
 
 0. Benchmark the performance of the respondent detail page when it has to display the details of the 500th respondent.
 
-Once we have this data, we can demonstrate where the slowness is coming from and, as an added bonus, we can get rid of that idiot Christophe.
+Once we have this data, we can demonstrate where the slowness is coming from and, as an added bonus, we can help Christophe buy a vowel and learn why a database is a better idea.
 
 Thanks for putting up with these shenanigans.
 
@@ -297,15 +305,21 @@ Emms
 
 ## Postscript
 
-There was a climactic, tension-filled executive meeting where Emily presented the data.
+On Friday, there was a climactic, tension-filled executive meeting where Emily presented the data via Skype.
 
-Christophe boldly took responsibility, which was a pleasant surprise to Emily. Emily's helpful suggestion that there are many databases that have already solved this performance and scalability problem, and any one of them could easily be implemented in about an hour, was ignored by everyone at the meeting when Christophe stood and said somewhat self-importantly, "I'll handle this." Management said, "You'd better!" and congratulated themselves on having hired a team that could solve such important if obscure technical issues.
+Christophe boldly took responsibility, which was a pleasant surprise to Emily. Emily's helpful suggestion that there are many databases that have already solved this performance and scalability problem, and any one of them could easily be implemented in about an hour, was ignored by everyone at the meeting when Christophe stood and said somewhat theatrically, "I'll handle this!" 
 
-Christophe implemented a hand-built, hybrid solution where he used the in-memory data structure as a cache for the CSV file data, developing this code by hand in a Mountain Dew and pizza-fueled coding frenzy weekend at the office and great personal cost to his marriage.
+Management said, "You'd better!" and congratulated themselves on having hired a team that could solve such important if obscure technical issues.
 
-The client loved the app. Frankie got his commission. Christophe got a bonus and a promotion due to his, as management wrote on his plaque, "Coolness under fire while going above and beyond to solve an unexpected client crisis".
+Christophe implemented a hand-built, hybrid solution where he used the in-memory data structure as a cache for the CSV file data, developing this code by hand in a Mountain Dew and pizza-fueled coding frenzy weekend at the office and at great personal cost to his marriage. 
 
-Emily got a great job at Rails shop across town where, one after another, she hired the rest of the development team at modest salary increases and significant hiring bonuses. They have great fun discussing the intricacies of the SQL vs NoSQL design choice as they quickly crank out projects.
+He was still coding Monday morning up to the moment of the final client demo. He crossed his fingers as the demo started because he hadn't written any tests and didn't *really* know if the app was going to work or not.
+
+The client loved the app. Frankie got his commission. Christophe got a bonus and a promotion due to his, as management wrote on his award plaque, "Coolness under fire while going 'above and beyond' to solve an unexpected client crisis".
+
+On Tuesday, Emily got a great job at Rails shop across town where, over the next few months, she hired the rest of the development team, one after another, at modest salary increases and significant hiring bonuses. 
+
+Today, they have great fun discussing the intricacies of the SQL vs NoSQL design choice as they quickly crank out projects.
 
 
 <hr />
