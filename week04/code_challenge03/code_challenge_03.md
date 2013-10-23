@@ -59,17 +59,13 @@ While Frank is working with the client to nail down the look and feel, wireframe
 
 0. Create a repository in your personal gift hub account and have both you and your partner use it during development. We'll clone the repo later into the company account.
 
-0. Use the gist at 
+0. Check out this gist (https://gist.github.com/Auraelius/7126869):
 
-  TBD
+<script src="https://gist.github.com/Auraelius/7126869.js"></script>
 
-  for your first test.
+0. Use the gist for your first test. Don't forget the test_helper.rb file and make sure you use a "test" folder to hold your tests.
 
-0. Use the gist at 
-
-    TBD
-
-    as a starting framework for your Sinatra app to make the app pass its first tests. You will have to fill in the code, these are just the routes. As you can see, we will be using the "classic" form of Sinatra, not the "modular" form. Let's keep things simple.
+0. Use the gist as a starting framework for your Sinatra app to make the app pass its first tests. You will have to fill in the code, these are just some routes. As you can see, we will be using the "classic" form of Sinatra, not the "modular" form. Let's keep things simple.
 
 0. Don't worry about stylesheets yet, we will deal with those later.
 
@@ -149,6 +145,8 @@ Okay, I'm assuming you've heard from Frank by now. In iteration 2, I'd like us t
 0. Set up a standard layout that includes the header and footer that appears on every page. Use partials if you like, but this isn't a hard requirement.
 
 0. Use external template files and the ERB templating language.
+
+0. All code needs to pass the style checker. I don't want any more arguments about spaces at team meetings. All exceptions have to be cleared through me or the customer advocate.
 
 0. Don't worry about storing the form data in any persistent manner yet. Every time they submit a form, you can just use the same variables over. We're still working on our database back end strategy. For now, just make sure that the form data is used in the thank you page as Frank describes. In fact, in the development environment, you can print out all of the form data, the programs data structure, and even the whole request data structure if you like. Just make sure it doesn't show up in the production environment.
 
@@ -250,9 +248,11 @@ Emms
 
 **Subject: OMG! The client is Pissed!**
 
-What did you people do? The last demo went *horribly* wrong. The site is as slow as polar bear snot in a snowstorm!
+What did you people do? The last demo went *horribly* wrong. The site is as slow as polar bear snot in a snowstorm! The client is furious!
 
-I'm going to lose my commission. I'm going to management with this issue.
+I am *NOT* going to lose my commission over this. Management is going to hear about this. 
+
+How could you do this to me?
 
 Frankie.
 
@@ -267,7 +267,7 @@ Folks, don't worry. I'm making sure everybody knows this is my problem. You guys
 
 I need some data. In this iteration, would you do something for me?
 
-0. Get ahold of the Faker gem so we can generate a ton of data.
+0. Get ahold of the Faker gem so we can generate a metric ton of data.
 0.  Use the faker gem to generate a CSV data file with a couple hundred or a couple thousand entries in it. Don't go crazy. 
 0. You can generate the file in a command line script, or for grins, you can create a custom URL and generate it in the web app itself. Something like 
 
@@ -277,15 +277,15 @@ I need some data. In this iteration, would you do something for me?
 
 0. Benchmark the performance of the admin display page when it is displaying the entire data set. If possible, write a test that gathers this data automatically. However, if you could just use the Chrome developer tools to see how long it takes to load the page, that's fine with me.
 
-0. Benchmark the performance of the respondent detail page when it has to display the details of the 500th respondent.
+0. Benchmark the performance of the respondent detail page when it has to display the details of the 500th respondent. Again, if you can write an automated test for this, please do.
 
-0. Go back to that earlier iteration where we still used an in-memory data structure. (See, I told you we would need this.)
+0. Go back to that earlier iteration where we still used an in-memory data structure. (See? I told you we would need this.)
 
 0. Branch your code at this point so we can make some modifications that will help with the benchmarking. Make sure you are working on the branch.
 
-0. Add the routine that generates the dummy data. Make sure it's the same number of respondents as you used in the file-based example. Obviously, you'll have to generate this data using the web app itself, because there's no files. Just make sure you get the same data as you did before.
+0. Add the routine that generates the dummy data. Make sure it's the same number of respondents as you used in the file-based example. Obviously, you'll have to generate this data using the web app itself because there's no files. Just make sure you get the same data as you did before.
 
-0. Benchmark the performance of the admin display page when it is displaying the entire data set. If possible, use the same test that you used before so the test results are indisputable. However, if you could just use the chrome developer tools again.
+0. Benchmark the performance of the admin display page when it is displaying the entire data set. If possible, use the same test that you used before so the test results are indisputable. However, if you could just use the Chrome developer tools again.
 
 0. Benchmark the performance of the respondent detail page when it has to display the details of the 500th respondent.
 
