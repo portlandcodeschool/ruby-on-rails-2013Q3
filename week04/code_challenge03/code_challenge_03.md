@@ -59,7 +59,7 @@ While Frank is working with the client to nail down the look and feel, wireframe
 
 0. Create a repository in your personal gift hub account and have both you and your partner use it during development. We'll clone the repo later into the company account.
 
-0. Check out this gist (https://gist.github.com/Auraelius/7126869):
+0. Check out this [gist](https://gist.github.com/Auraelius/7126869) :
 
 <script src="https://gist.github.com/Auraelius/7126869.js"></script>
 
