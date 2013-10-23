@@ -61,7 +61,7 @@ While Frank is working with the client to nail down the look and feel, wireframe
 
 0. Check out this [gist](https://gist.github.com/Auraelius/7126869) :
 
-<script src="https://gist.github.com/Auraelius/7126869.js"></script>
+   <script src="https://gist.github.com/Auraelius/7126869.js"></script>
 
 0. Use the gist for your first test. Don't forget the test_helper.rb file and make sure you use a "test" folder to hold your tests.
 
