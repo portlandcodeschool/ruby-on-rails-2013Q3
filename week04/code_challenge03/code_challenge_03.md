@@ -59,9 +59,17 @@ While Frank is working with the client to nail down the look and feel, wireframe
 
 0. Create a repository in your personal gift hub account and have both you and your partner use it during development. We'll clone the repo later into the company account.
 
-0. Use the gist at TBD for your first test.
+0. Use the gist at 
 
-0. Use the gist at TBD as a starting framework for your Sinatra app to make the app pass its first tests. You will have to fill in the code, these are just the routes. As you can see, we will be using the "classic" form of Sinatra, not the "modular" form. Let's keep things simple.
+  TBD
+
+  for your first test.
+
+0. Use the gist at 
+
+    TBD
+
+    as a starting framework for your Sinatra app to make the app pass its first tests. You will have to fill in the code, these are just the routes. As you can see, we will be using the "classic" form of Sinatra, not the "modular" form. Let's keep things simple.
 
 0. Don't worry about stylesheets yet, we will deal with those later.
 
@@ -112,7 +120,7 @@ The client wants an admin interface. Don't worry about authentication at this po
 
 When they click on one of the respondents, anywhere in the row of the table, they want to go to a page that shows the detail for that particular customer. That page has a link to return to the base of the admin pages. The detail page looks like this:
 
-![Admin page, detail](./wireframes/suckers_listing.png "Admin page - displays respondent detail")
+![Admin page, detail](./wireframes/suckers_detail.png "Admin page - displays respondent detail")
 
 Finally, here's a page flow diagram that summarizes what I've got so far.
 
