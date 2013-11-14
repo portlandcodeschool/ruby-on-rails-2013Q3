@@ -7,9 +7,10 @@ This week, we continue Rails, work with regular expressions, and build a command
 
 ##Activities
 
-tbd
+0. More Hartl
+0. [Code Challenge 04](../code_challenge_04/code_challenge_04.md)
+0. Prep project proposals
 
-###This week you will:
 
 tbd
 
