@@ -12,7 +12,7 @@ This week, we continue Rails, work with regular expressions, and build a command
 0. Prep project proposals
 
 
-tbd
+
 
 <hr />
 Copyright © 2013 Alan Zimmerman <br />
