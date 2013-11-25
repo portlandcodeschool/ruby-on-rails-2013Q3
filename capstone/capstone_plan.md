@@ -39,14 +39,14 @@ See below for details about each of these deliverables.
 
 Here are the dates for 2013Q4:
 
-11/27 - First draft of brief is ready
-12/04 - initial technical review of stories, wireframes, flows, gems
-12/11 - technical review of tests and code
-12/18 - technical review of tests and code
-01/01 - technical review, beta testing begins
-01/08 - demo & presentation dress rehearsals
-01/15 - Demos and Presentation, After-Party
-
+* 11/20 - elevator pitch is ready
+* 11/27 - First draft of brief is ready online on repo wiki 
+* 12/04 - initial technical review of stories, wireframes, flows, gems
+* 12/11 - technical review of tests and code
+* 12/18 - technical review of tests and code
+* 01/01 - technical review, beta testing begins
+* 01/08 - demo & presentation dress rehearsals
+* 01/15 - Demos and Presentation, After-Party
 
 # Deliverables Details
 
@@ -130,7 +130,7 @@ There will be weekly technical reviews and code walkthoughs for all projects. So
 
 At the end of the course, we will show off our completed projects to classmates, technical advisors, friends and invited guests. All project teams must have a working web application to demonstrate, a short, non-verbal (no bullet points!) marketing deck, and a completed project web site to support their presentation.
 
-There will be checkups at all technical reviews and a dress rehearsal for these presentations.  After graduation, tudents will be encouraged to present their projects at a Tuesday night Hack & Help session.l
+There will be checkups at all technical reviews and a dress rehearsal for these presentations.  After graduation, students will be encouraged to present their projects at a Tuesday night Hack & Help session.
 
 <hr />
 Copyright © 2013 Alan Zimmerman <br />
