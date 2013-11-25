@@ -88,9 +88,7 @@ Project Management
 * What features will be available first? Which will be left for later or discarded if necessary?
 * Is there a budget? 
 
-
 - See more at: http://www.methodandclass.com/article/how-to-write-a-brief-for-a-web-site#sthash.3ZulFUY1.dpuf
-
 
 ## Wireframes 
 ## Page flow diagram
@@ -104,9 +102,9 @@ Use rspec, capybara and, optionally, Cucumber for acceptance testing for at leas
 
 Make sure all of your Models have units tests in rspec.
 
-ahave at least one controller test, if not full coverage.
+Have at least one controller test, if not full coverage.
 
-Use FactoryGirl for testing data instead of fixtures for at least one Unit test.
+Use FactoryGirl for test stimulus data instead of fixtures for at least one Unit test.
 
 ## Code
 
