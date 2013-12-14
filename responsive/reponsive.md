@@ -1,5 +1,4 @@
-#Responsive Web Design
-
+# Responsive Web Design
 
 Images from http://bradfrostweb.com/blog/web/responsive-web-design-missing-the-point.
 
@@ -28,25 +27,21 @@ If you don't apply any CSS styles to a page, the browser's built-in stylesheet i
 
 Up until the last few years, many web designers used fixed width layout designs. Frankly, they are easier to make. The template file is fixed-width. No matter what size the browser is, the web page is always the same width (in this case 960 pixels). This works ok in most browsers on big screens, because if the screen is wider than the page, people can zoom in to make the page larger. However, it fails utterly on smaller screens, like mobile browsers on tablets and phones.
 
-#Goals and needs of the mobile user
+## Goals and needs of the mobile user
 
-
-Luke Wroblewski, a <a href="http://www.lukew.com/ff/entry.asp?933" target="_blank">noted web designer</a>, refers to the mobile user as &ldquo;one eye and one thumb.&rdquo; &nbsp;This means, first, that the mobile user is paying even less attention to your website in an environment that already demands their attention. This means you have to get their attention by offering them the most important information without fill or distraction. Second, it means that the display is much smaller (to fit the device) and the controls must be larger (to fit the size of your finger), requiring interactions to be much simpler.
+Luke Wroblewski, a <a href="http://www.lukew.com/ff/entry.asp?933" target="_blank">noted web designer</a>, refers to the mobile user as &ldquo;one eye and one thumb.&rdquo; This means, first, that the mobile user is paying even less attention to your website in an environment that already demands their attention. This means you have to get their attention by offering them the most important information without fill or distraction. Second, it means that the display is much smaller (to fit the device) and the controls must be larger (to fit the size of your finger), requiring interactions to be much simpler.
 
 The context, or environment for a mobile user is much more complicated than what a desktop user inhabits:
 
 ![the context of a mobile user](images/mobile_context.png)
 
-
-
-From:&nbsp;<a href="http://www.giantant.com/output/mobile_context_model.pdf" target="_self">http://www.giantant.com/output/mobile_context_model.pdf</a>
+From: <a href="http://www.giantant.com/output/mobile_context_model.pdf" target="_self">http://www.giantant.com/output/mobile_context_model.pdf</a>
 
 How to help your user's cope? In general, you need to <strong>simplify your layout and focus your content</strong> on only the essentials. Remove everything else.  As Jakob Nielsen says, "<a href="http://www.nngroup.com/articles/condense-mobile-content/" target="_blank" style="line-height: 16pt; text-indent: 0pt; font-size: 11pt;">Mobile Content: If In Doubt, Leave it Out.</a>"
 
 You need a different layout and simplified content for mobile users. How to accomplish this?
 
-
-# Mobile options
+## Mobile options
 
 You have three options:
 
@@ -54,15 +49,14 @@ You have three options:
 0. Separate web site optimized entirely for mobile devices
 0. Responsive web site that changes appearance and content depending on the device
 
-
-<strong>Mobile applications</strong> have the advantage that they can access the entire set of device capabilities. They can use the camera, gyroscope, accelerometer, GPS, and everything else. On the other hand, application development requires knowledge of specific programming languages, either Java, or Objective-C. &nbsp;For businesses, application development can be expensive. Finally, it is difficult to link to an application using a URL, making hard to incorporate a mobile app into a coordinated online strategy.
+<strong>Mobile applications</strong> have the advantage that they can access the entire set of device capabilities. They can use the camera, gyroscope, accelerometer, GPS, and everything else. On the other hand, application development requires knowledge of specific programming languages, either Java, or Objective-C. For businesses, application development can be expensive. Finally, it is difficult to link to an application using a URL, making hard to incorporate a mobile app into a coordinated online strategy.
 
 <strong>Separate mobile websites,</strong> optimized for small devices, pose a problem of maintaining two websites for the same audience and with the same content. It increases the amount of work.
 
 <strong>Responsive websites</strong> allow you to create the content once and use it for both mobile and desktop websites. True, some of your content may be discarded for the mobile version, but at least you don't have to create, store, and manage the mobile content separately and in addition to the same content for desktop websites.
 
 
-#Responsive design examples
+## Responsive design examples
 
 To see and experience a variety of responsive designes, go to http://mediaqueri.es/ 
 
@@ -71,9 +65,9 @@ Click on one of the sites. Resize your browser by grabbing the lower right corne
 For example, try http://www.time.com/time/ . Notice how images scale, the number of columns change, and the fonts adjust as the window gets smaller. 
 
 
-#Fluid width layout
+## Fluid width layout
 
-In this first responsive design module, we'll talk about how to define width, margin, and padding so that the layout stays the same proportionally as the browser width changes. 
+Let's talk about how to define width, margin, and padding so that the layout stays the same proportionally as the browser width changes. 
 
 The page structure looks like this:
 
@@ -89,7 +83,6 @@ The page structure looks like this:
       <div class="footer"> <!-- copyright information -->    
       </div>    
     </div> <!-- .container -->    
-
 
 
 In the first, fixed layout case, we use pixel measurements for widths, margin and padding:
@@ -129,7 +122,6 @@ In the second, fluid layout case, we use measurements that are a percentage of t
       margin: 5%;    
     }    
 
-
     .article {    
       margin: 5%;    
     }    
@@ -154,7 +146,7 @@ Notice a few things:
 0. There are other measurements in the stylesheet that have to change in addition to the ones shown in this example.
 
 
-# Media queries
+## Media queries
 
 So, how do we change the styles, layout, and elements on the page to adapt to the mobile screen and mobile user experience?
 
@@ -170,12 +162,11 @@ Browsers come in different<strong> media types</strong>. Examples include:
 0. <strong>speech</strong> - a web browser that parses the HTML and speaks to the user, reading the web page
 
 
-There are others. See <a href="http://www.w3.org/TR/CSS2/media.html">http://www.w3.org/TR/CSS2/media.html</a>
+There are others. See <a href="http://www.w3.org/TR/CSS2/media.html">http://www.w3.org/TR/CSS2/media.html</a>  and http://www.w3.org/TR/2012/REC-css3-mediaqueries-20120619/
 
 ## Media features
 
 Each type of media has characteristics that it can report to help your web page decide how best to present your information. Examples include:
-
 
 0. <strong>width</strong> &lt;integer&gt; (pixels)
 0. <strong>height</strong> &lt;integer&gt; (pixels)
@@ -194,16 +185,16 @@ A<strong> media query</strong> is a way for your web page to ask the browser wha
 
 ### In the link tag in the HTML
 
-In your HTML file, you can have multiple link tags, one for each kind of media. &nbsp;The browser decides &nbsp;which stylesheet to use based on the media type. &nbsp;in the <strong>link</strong> tag, use the <strong>media</strong> attribute to specify the media type. &nbsp;Examples:
+In your HTML file, you can have multiple link tags, one for each kind of media. The browser decides which stylesheet to use based on the media type. in the <strong>link</strong> tag, use the <strong>media</strong> attribute to specify the media type.Examples:
 
 
-    <link rel="stylesheet" type="text/css" <strong>media="screen"</strong> href="sans-serif.css">
-    <link rel="stylesheet" type="text/css" <strong>media="print"</strong> href="serif.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="sans-serif.css">
+    <link rel="stylesheet" type="text/css" media="print" href="serif.css">
 
 
 ### In the CSS style sheet
 
-In your CSS stylesheet, you can choose to import a style sheet file based on the media type and features. &nbsp;In the following example, a stylesheet is imported when the media type is a color screen:
+In your CSS stylesheet, you can choose to import a style sheet file based on the media type and features. In the following example, a stylesheet is imported when the media type is a color screen:
 
     @import url(/style.css) screen and (color);
 
@@ -255,41 +246,52 @@ Your client has come to you and said, "Make the design fluid. Further, for very 
 
 ## Instructions
 
-### File preparations</h3>
+### File preparations
 
-0. Make a copy of your template folder and rename it to "site"
-0. Copy your CSS file (in your stylesheet folder) to a new file.  
-0. Change the stylesheet link in your file to use the new stylesheet
+- [ ] Make a copy of your template folder and rename it to "site".
+
+- [ ] Copy your CSS file (in your stylesheet folder) to a new file.
+
+- [ ] Change the stylesheet link in your file to use the new stylesheet.
 
 ### Fluid width changes
-0. Modify your stylesheet to use <em>percentage</em> units of measure instead of <em>pixel</em> units of measure for width, padding and margin. Leave all the zero values alone (zero values do not take units of measure). Do not add width rules to any element that does not already have widths specified. Unspecified element are fluid by default.
 
-0. Make all widths (including the main container, header and footer, and various article, article_heading and article_content divs widths)<strong> 90%</strong>
+- [ ] Modify your stylesheet to use <em>percentage</em> units of measure instead of <em>pixel</em> units of measure for width, padding and margin. 
 
-0. Make all the non-zero margins <strong>5%</strong>&nbsp;
-0. Make all non-zero padding <strong>2%</strong>
-0. Leave any height measurements as pixels.
+- [ ] Leave all the zero values alone (zero values do not take units of measure). Do not add width rules to any element that does not already have widths specified. Unspecified element are fluid by default.
 
-0. Test your changes by making your web browser first wide and then narrow. Make sure that all elements flex with browser width.
+- [ ] Make all widths (including the main container, header and footer, and various article, article_heading and article_content divs widths)<strong> 90%</strong>
+
+- [ ] Make all the non-zero margins <strong>5%</strong>
+
+- [ ] Make all non-zero padding <strong>2%</strong>
+
+- [ ] Leave any height measurements as pixels.
+
+- [ ] Test your changes by making your web browser first wide and then narrow. Make sure that all elements flex with browser width.
 
 ### Media query changes.
 
 In the following sequence, the instructions start out very explicit and gradually become simpler (and you have to figure out what style rules to use).
 
-0. Modify your stylesheet to use a media query at the very bottom of the file. You put it at the bottom of the file so that it overrides the previous rules.
+- [ ] Modify your stylesheet to use a media query at the very bottom of the file. You put it at the bottom of the file so that it overrides the previous rules.
 
 <strong>Remember - your desktop version of the file must appear the same as it always has - validation badges present, colors the same. The following changes should only become apparent when the browser becomes narrower than 500 pixels.</strong>
 
-0. Make the media query detect screens whose maximum width is 500 pixels. A query like
+- [ ] Make the media query detect screens whose maximum width is 500 pixels. A query like
 
     @media (max-width: 500px)
 
 should work.
 
-0. Make the validation badges disappear for small screens. You can set the property "display: none;" for their div (look for &lt;div class="validation_badge"&gt; in the HTML to find them).&nbsp;
-0. Make the overall "container" div have the following properties for small screens: 100% width, background-color: white, and margin: 0. This will remove borders and make the background color "cleaner."
-0. Make the "article_heading" div "cleaner" by removing the border and setting the background color to white.
-0. Test your changes by making your web browser wide and narrow.  It should look something like the following video:
+- [ ] Make the validation badges disappear for small screens. You can set the property "display: none;" for their div (look for &lt;div class="validation_badge"&gt; in the HTML to find them).
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/TSEMbyJs1Ds?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
+
+- [ ] Make the overall "container" div have the following properties for small screens: 100% width, background-color: white, and margin: 0. This will remove borders and make the background color "cleaner."
+
+- [ ] Make the "article_heading" div "cleaner" by removing the border and setting the background color to white.
+
+- [ ] Test your changes by making your web browser wide and narrow.  It should look something like the following video:
+
+http://youtu.be/TSEMbyJs1Ds
 
