@@ -248,50 +248,50 @@ Your client has come to you and said, "Make the design fluid. Further, for very 
 
 ### File preparations
 
-- [ ] Make a copy of your template folder and rename it to "site".
+[ ] Make a copy of your template folder and rename it to "site".
 
-- [ ] Copy your CSS file (in your stylesheet folder) to a new file.
+[ ] Copy your CSS file (in your stylesheet folder) to a new file.
 
-- [ ] Change the stylesheet link in your file to use the new stylesheet.
+[ ] Change the stylesheet link in your file to use the new stylesheet.
 
 ### Fluid width changes
 
-- [ ] Modify your stylesheet to use <em>percentage</em> units of measure instead of <em>pixel</em> units of measure for width, padding and margin. 
+[ ] Modify your stylesheet to use <em>percentage</em> units of measure instead of <em>pixel</em> units of measure for width, padding and margin. 
 
-- [ ] Leave all the zero values alone (zero values do not take units of measure). Do not add width rules to any element that does not already have widths specified. Unspecified element are fluid by default.
+[ ] Leave all the zero values alone (zero values do not take units of measure). Do not add width rules to any element that does not already have widths specified. Unspecified element are fluid by default.
 
-- [ ] Make all widths (including the main container, header and footer, and various article, article_heading and article_content divs widths)<strong> 90%</strong>
+[ ] Make all widths (including the main container, header and footer, and various article, article_heading and article_content divs widths)<strong> 90%</strong>
 
-- [ ] Make all the non-zero margins <strong>5%</strong>
+[ ] Make all the non-zero margins <strong>5%</strong>
 
-- [ ] Make all non-zero padding <strong>2%</strong>
+[ ] Make all non-zero padding <strong>2%</strong>
 
-- [ ] Leave any height measurements as pixels.
+[ ] Leave any height measurements as pixels.
 
-- [ ] Test your changes by making your web browser first wide and then narrow. Make sure that all elements flex with browser width.
+[ ] Test your changes by making your web browser first wide and then narrow. Make sure that all elements flex with browser width.
 
 ### Media query changes.
 
 In the following sequence, the instructions start out very explicit and gradually become simpler (and you have to figure out what style rules to use).
 
-- [ ] Modify your stylesheet to use a media query at the very bottom of the file. You put it at the bottom of the file so that it overrides the previous rules.
+[ ] Modify your stylesheet to use a media query at the very bottom of the file. You put it at the bottom of the file so that it overrides the previous rules.
 
 <strong>Remember - your desktop version of the file must appear the same as it always has - validation badges present, colors the same. The following changes should only become apparent when the browser becomes narrower than 500 pixels.</strong>
 
-- [ ] Make the media query detect screens whose maximum width is 500 pixels. A query like
+[ ] Make the media query detect screens whose maximum width is 500 pixels. A query like
 
     @media (max-width: 500px)
 
 should work.
 
-- [ ] Make the validation badges disappear for small screens. You can set the property "display: none;" for their div (look for &lt;div class="validation_badge"&gt; in the HTML to find them).
+[ ] Make the validation badges disappear for small screens. You can set the property "display: none;" for their div (look for &lt;div class="validation_badge"&gt; in the HTML to find them).
 
 
-- [ ] Make the overall "container" div have the following properties for small screens: 100% width, background-color: white, and margin: 0. This will remove borders and make the background color "cleaner."
+[ ] Make the overall "container" div have the following properties for small screens: 100% width, background-color: white, and margin: 0. This will remove borders and make the background color "cleaner."
 
-- [ ] Make the "article_heading" div "cleaner" by removing the border and setting the background color to white.
+[ ] Make the "article_heading" div "cleaner" by removing the border and setting the background color to white.
 
-- [ ] Test your changes by making your web browser wide and narrow.  It should look something like the following video:
+[ ] Test your changes by making your web browser wide and narrow.  It should look something like the following video:
 
 http://youtu.be/TSEMbyJs1Ds
 
